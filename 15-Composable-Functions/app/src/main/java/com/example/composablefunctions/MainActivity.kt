@@ -49,13 +49,6 @@ fun myComposableFunction() {
         fontWeight = FontWeight.Bold,
         fontStyle = FontStyle.Italic,
         fontFamily = FontFamily.Cursive,
-        modifier = Modifier
-            .background(Color(0xDEDEDE))
-            .padding(10.dp)
-            .border( 1.dp, Color.Gray)
-            .size(150.dp, 40.dp)
-            .padding(5.dp)
-
     )
 }
 
