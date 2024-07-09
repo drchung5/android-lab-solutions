@@ -14,8 +14,6 @@ abstract class RestaurantDatabase: RoomDatabase() {
         fun getInstance(context: Context): RestaurantDatabase {
             synchronized(this) {
 
-                context.deleteDatabase("restaurants")
-
                 val restaurantDB = Room.databaseBuilder(
                     context.applicationContext,
                     RestaurantDatabase::class.java,
